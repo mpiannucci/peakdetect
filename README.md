@@ -2,6 +2,21 @@
 
 Converted from MATLAB script at http://billauer.co.il/peakdet.html
 
+### Usage
+
+Download and install the repo
+```bash
+go get github.com/mpiannucci/peakdetect
+```
+
+Call it on a slice
+```go
+import "github.com/mpiannucci/peakdetect"
+...
+v := [...]float64{0.0,1.0,2.0,1.0,0.0,-1.0,0.0,3.0,0.0}
+mini, minv, maxi, maxv := peakdetect.PeakDetect(v[:], 1.0)
+```
+
 ### License
 
 Converted by Matthew Iannucci
