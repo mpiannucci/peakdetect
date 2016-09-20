@@ -17,6 +17,10 @@ v := [...]float64{0.0,1.0,2.0,1.0,0.0,-1.0,0.0,3.0,0.0}
 mini, minv, maxi, maxv := peakdetect.PeakDetect(v[:], 1.0)
 ```
 
+### Documentation
+
+https://godoc.org/github.com/mpiannucci/peakdetect
+
 ### License
 
 Converted by Matthew Iannucci
